@@ -14,7 +14,6 @@ class Widget extends React.Component {
   }
 
   doThing() {
-    console.log('here');
     this.props.store.dispatch(doSomething(1));
   }
 
