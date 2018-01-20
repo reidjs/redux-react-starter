@@ -5,7 +5,7 @@ import store from './store';
 
 document.addEventListener("DOMContentLoaded", function(){
   let myStore = store;
-  window.state = myStore.getState();
+  window.store = myStore;
   ReactDOM.render(
     <Widget store={myStore}/>, 
     document.getElementById('root'));
